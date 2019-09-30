@@ -55,21 +55,6 @@ Wir können Aussagen verändern oder durch Operationen zu neuen Aussagen verbind
 \end{alertblock}
 \end{frame}
 
-\begin{frame}{Mengen - Mal anders}
-	\begin{alertblock}{Ein paar Definitionen}
-		Eine nichtleere Menge einstelliger Symbole nennen wir \alert{Alphabet}.
-		Es wird oft dargestellt durch den Bezeichner $\Sigma$.\\
-	\end{alertblock}
-	\metroset{block=fill}
-	\begin{exampleblock}{Beispiele}
-		\begin{itemize}
-			\item $\Sigma = \{a,b\}$
-			\item $\Sigma = \{0,1\}$
-			\item $\Sigma = \{\text{Rechts, Links, Vorwärts, Rückwärts, Start, Stopp, Pause}\}$
-		\end{itemize}
-	\end{exampleblock}
-\end{frame}
-
 
 \begin{frame}{Überblick: Mengenoperationen}
 	
@@ -172,11 +157,10 @@ Wir können Aussagen verändern oder durch Operationen zu neuen Aussagen verbind
     \begin{block}{Etwas Schwerer}
     \begin{itemize}
         \item $A_4$: $(\emptyset=\emptyset^{*}) \implies (a \in \emptyset)$
-        \item $A_5$: $\{2\} \cup \{6\} \subseteq \mathbb{N}$
-        \item $A_6$: $(a \notin \emptyset) \implies (\emptyset = \emptyset^{*})$
-        \item $A_7$: $A_4 \iff A_6$
-        \item $A_8$: $(7 \in \{1, 2, 7, 9\}) \cap (2 = 7-5)$
-        \item $A_9$: Wenn mein Auto fliegen kann, hast du auch ein fliegendes Auto.
+        \item $A_5$: $(a \notin \emptyset) \implies (\emptyset = \emptyset^{*})$
+        \item $A_6$: $A_4 \iff A_5$
+        \item $A_7$: $(7 \in \{1, 2, 7, 9\}) \cap (2 = 7-5)$
+        \item $A_8$: Wenn mein Auto fliegt, hast du auch ein fliegendes Auto.
     \end{itemize}
     \end{block}
 \end{frame}
@@ -196,7 +180,7 @@ Wir können Aussagen verändern oder durch Operationen zu neuen Aussagen verbind
 %     \end{block}
 % \end{frame}
 % }
-\subsubsection{Aufgaben}
+
 {\setbeamercolor{palette primary}{bg=ExColor}
 \begin{frame}{Lösungen}
   \begin{itemize}[<+- | alert@+>]
@@ -209,15 +193,13 @@ Wir können Aussagen verändern oder durch Operationen zu neuen Aussagen verbind
         \item
             $A_4$: wahr 
         \item
-            $A_5$: wahr
-        \item
-            $A_6$: falsch
+            $A_5$: falsch
        	\item
-       		$A_7$: falsch
+       		$A_6$: falsch
         \item
-            $A_8$: Das ist keine Aussage, da der Schnitt($\cap$) verwendet wurde um zwei Aussagen miteinander zu verknüpfen
+            $A_7$: Das ist keine Aussage, da der Schnitt($\cap$) verwendet wurde um zwei Aussagen miteinander zu verknüpfen
        	\item
-       		$A_9$: wahr
+       		$A_8$: wahr
     \end{itemize}
 \end{frame}
 }
@@ -248,15 +230,17 @@ Wir können Aussagen verändern oder durch Operationen zu neuen Aussagen verbind
 
 
 \begin{frame}{Anwendung der Implikation}
-    Wir haben zwei Aussagen A und B. Wir nehmen nun an, A sei wahr. Wenn wir zeigen, dass A$\implies$B wahr ist, wissen wir auch, dass B wahr ist.
+    Wir haben zwei Aussagen $A$ und $B$. Wir nehmen nun an, $A$ sei wahr. Wenn wir zeigen, dass dann auch $B$ wahr ist, wissen wir, dass $A \implies B$ gilt.
 \metroset{block=fill}
 \begin{exampleblock}{Beispiel}
 \begin{enumerate}
-    \item<1-> Wir zeigen, es gibt eine ganze Zahl x,\\sodass $3 = x - 2 \implies x = 5$ wahr ist.
+    \item<1-> Wir wollen zeigen, dass für eine ganze Zahl $x$ \\
+    die Implikation $3 = x - 2 \implies x = 5$ gilt.
     \item<2-> Wir nehmen an, dass die linke Aussage wahr ist\dots
     \item<3-> \dots und zeigen, dass dann die rechte Aussage gilt.
     \item<4-> $(3 = x - 2) \implies (3 + 2 = x) \implies (5 = x) \implies (x = 5)$
-    \item<5> Also gilt die rechte Aussage \qed\;
+    \item<5-> Also folgt die rechte Aussage aus der linken
+    \item<6-> Somit gilt die Implikation \qed\;
 \end{enumerate}
 \end{exampleblock}
 \end{frame}
