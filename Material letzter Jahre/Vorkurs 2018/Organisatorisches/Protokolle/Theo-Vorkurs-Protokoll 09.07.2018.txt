@@ -1,0 +1,51 @@
+Sitzung Theo-Vorkurs vom 09.07.2018:
+
+Beginn: 13:05 Uhr
+Ende: 13:50 Uhr
+
+Anwesende(8): Fabian Grote, Tobias Kaessmann, Marcial Geißert, Pia Wippermann, Samuel, Aly, Julian Siebert, Mohamad Altaweel
+
+Ungefähres Programm:
+	1. Tag (Vortragsübung in Hörsaal):
+	- Einführung, Motivation
+	- Was ist eine Menge?
+	- Quantoren (Allquanttor und Existenzquantor)
+	- Schnitt
+	- Vereinigung
+	- Konkatenation
+	- Komplement
+
+	2. Tag (Vortragsübung in Hörsaal):
+	- Wiederholung
+	- Wahrheitstafeln
+	- Mengenbeweise
+	- logisches Schließen
+
+	3. Tag (Übung in Seminarraum):
+	- Wiederholung des Stoffs der ersten beiden Tage
+	- Übungen zu dem Stoff der ersten beiden Tage
+	- Mengenbeweise (z.B. gleichheitsbeweise von Mengen)
+	- "Schnitt" ist äquivalent zu "mathematische UND"
+	- "Vereinigung" ist äquivalent zu "mathematische ODER"
+
+	4. Tag (Vortragsübung in Hörsaal):
+	- Sprachen
+	- Grammatiken (Tupel, etc.)
+
+	5. Tag (Übung in Seminarraum):
+	- Wiederholung
+	- Chomsky-Hierarchy
+	- Übung zu dem ganzen Stoff
+
+Räume:
+	- Um die Reservierung der Vorlesungssäle kümmern sich Julian und Fabian.
+	- Jens hat 4 Seminarräume reserviert für die ganze Woche für uns.
+
+TODOS:
+- Fabian und Julian Hörsaal reservieren.
+- Übungsaufgaben erstellen: Alle
+- Polo-shirts/ T-shirts designen/ bestellen: Wer Bock hat
+- Namensschilder bei Stuvus beantragen: Fabian
+- Zugangsberechtigung zu den Seminarräumen beantragen: ?
+- Text für Webseite an Kevin geben: Julian?
+- Schlüssel für Hörsääle bei Katrin Schneider ausleihen: ?

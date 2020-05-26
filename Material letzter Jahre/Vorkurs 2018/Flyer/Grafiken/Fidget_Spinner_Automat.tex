@@ -1,0 +1,46 @@
+
+\documentclass{article}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows ,automata ,positioning}
+\usetikzlibrary{automata}
+
+\begin{document}
+
+\begin{tikzpicture}[->, 
+	>=stealth, 
+	shorten >= 0pt, 
+	node distance = 2.8cm, 
+	semithick]
+
+\node [initial,state] (0) {$z_0$};
+\node [state, accepting] (3) [right of = 0] {$z_3$};
+\node [state, accepting] (6) [right of = 3] {$z_6$};
+\node [state] (4) [above right of = 6] {$z_4$};
+\node [state] (5) [below right of = 6] {$z_5$};
+\node [state] (1) [above right of = 4] {$z_1$};
+\node [state] (2) [below right of = 5] {$z_2$};
+
+
+\path (0) edge[bend left=65, above] node {a} (1)
+					edge[bend left=65, right] node {b} (4)
+			(1) edge[bend left=45, below] node {a} (2)
+					edge[bend left=65, left] node {b} (5)
+			(2) edge[bend left=65, left] node {a} (0)
+					edge[bend left=65, top] node {b} (3)
+			(3) edge[bend right=65, top] node {b} (5)
+					edge[right] node {a} (6)
+			(4) edge[bend right=45, right] node {b} (3)
+					edge[right] node {a} (6)
+			(5) edge[bend right=65, left] node {b} (4)
+					edge[right] node {a} (6)
+			(6) edge[loop, above] node {$\Sigma$} (6)
+			;
+
+
+\end{tikzpicture}
+
+
+
+
+\end{document}
