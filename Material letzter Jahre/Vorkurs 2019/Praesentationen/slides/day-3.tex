@@ -1,0 +1,111 @@
+\input{../preamble.tex}
+
+\title{Vorkurs Theoretische Informatik}
+\subtitle{Induktion und Einführung in die Grammatik}
+\date{Mittwoch, 02.10.2019}
+\author{Arbeitskreis Theo Vorkurs}
+\institute{Fachgruppe Informatik}
+% \titlegraphic{\hfill\includegraphics[height=1.5cm]{logo.pdf}}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}[fragile]{Übersicht}
+  \setbeamertemplate{section in toc}[sections numbered]
+  \tableofcontents%[hideallsubsections]
+\end{frame}
+
+\section{Vollständige Induktion}
+
+\input{../parts/induktion-1.tex}
+
+\begin{frame}[standout]
+  Murmelpause
+\end{frame}
+
+\input{../parts/induktion-2.tex}
+
+\begin{frame}[standout]
+  Murmelpause
+\end{frame}
+
+\section{Grammatiken}
+
+\input{../parts/grammatiken-1.tex}
+
+\begin{frame}[standout]
+  Murmelpause
+\end{frame}
+
+\input{../parts/grammatiken-2.tex}
+
+\section{Wiederholung} 
+\begin{frame}[fragile]{Das können wir jetzt beantworten}
+	\begin{alertblock}{Vollständige Induktion}
+		\begin{itemize}
+			\item Was ist die Idee der Induktion?
+			\item Welche Schritte hat die Induktion? %IA,IV,IS
+			\item Für welche Aussagen ist die Induktion geeignet?
+		\end{itemize}
+	\end{alertblock}
+\end{frame}
+
+\begin{frame}[fragile]{Das können wir jetzt beantworten}
+	\begin{alertblock}{Grammatiken}
+		\begin{itemize}
+        	\item Was sind Grammatiken?
+			\item Was ist der Zusammenhang zwischen Grammatiken und Sprachen?
+			\item Was sind Nichtterminale?
+			\item Was sind Terminale?
+			\item Bilden einer Grammatik für gegebene Sprache
+        	\item Wie finde ich raus, ob ein Wort von einer Grammatik erzeugt wird?
+		\end{itemize}
+	\end{alertblock}
+\end{frame}
+
+\begin{frame}[standout]
+  Noch Fragen?
+\end{frame}
+
+\begin{frame}[fragile]{Glossar}
+    \small
+    \begin{tabular}{p{0.12\textwidth} p{0.23\textwidth} p{0.5\textwidth}}
+    \toprule
+    Abk.&Bedeutung&Was?!\\
+    \midrule
+        $A \subseteq B$ & Teilmenge & Alle Elemente aus A sind auch in B enthalten. Dabei können die Mengen auch gleich sein.\\
+        $A \subsetneq B$ & echte Teilmenge & Alle Elemente aus A sind auch in B enthalten. Jedoch enthält B noch Elemente, die nicht in A enthalten sind.
+        $\implies$ Mengen sind nicht gleich!\\
+        $A \subset B$ & Teilmenge \emph{oder} echte Teilmenge & Bei manchen Leuten $\subseteq$, bei manchen $\subsetneq$. Mehrdeutig, lieber nicht verwenden!\\
+    \bottomrule
+    \end{tabular}
+\end{frame}
+
+
+% \section{Wiederholung} 
+
+% \begin{frame}[fragile]{Das können wir jetzt beantworten}
+%     \blindtext
+% \end{frame}
+
+% \begin{frame}[standout]
+%   Noch Fragen?
+% \end{frame}
+
+% \begin{frame}[fragile]{Glossar}
+%     \small
+%     \begin{tabular}{p{0.05\textwidth} p{0.25\textwidth} p{0.5\textwidth}}
+%     \toprule
+%     Abk.&Bedeutung&Was?!\\
+%     \midrule
+%         gdw.&genau dann wenn&Äquivalenz zwischen Aussagen\\
+%         $\mathbb{N}$&natürliche Zahlen (mit 0)&In der theoretischen Informatik enthält $\mathbb{N}$ die 0: $\mathbb{N}=\{0,1,2,3,\dots\}$\\
+%         \Sigma & Sigma& mit diesem Zeichen wird oft das Alphabet (die Menge an verwendbaren Symbolen) repräsentiert\\
+%         $\Sigma^\ast$&Sigma Stern&Menge aller Möglichkeiten Elemente aus $\Sigma$ hintereinander zu schreiben\\
+%     \bottomrule
+%     \end{tabular}
+% \end{frame}
+
+
+\end{document}
