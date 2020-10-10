@@ -1,17 +1,18 @@
-\documentclass[10pt]{beamer}
+\documentclass[aspectratio=43,10pt]{beamer}
 
 \usetheme[progressbar=frametitle]{metropolis}
 \usepackage{appendixnumberbeamer}
 \usepackage[ngerman]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{t1enc}
+
 \usepackage{booktabs}
 \usepackage[scale=2]{ccicons}
 \usepackage{hyperref}
 
 \usepackage{pgf}
 \usepackage{tikz}
-\usetikzlibrary{arrows,automata}
+\usetikzlibrary{arrows,automata,positioning}
 \usepackage{pgfplots}
 \usepgfplotslibrary{dateplot}
 
@@ -20,9 +21,11 @@
 
 \usepackage{blindtext}
 \usepackage{graphicx}
+\usepackage{subcaption}
 \usepackage{comment}
 \usepackage{mathtools}
 \usepackage{amsmath}
+\usepackage{centernot}
 \usepackage{amssymb}
 \usepackage{proof}
 \usepackage{tabularx}
@@ -38,6 +41,7 @@
 \newcommand{\absval}[1]{|#1|}
 \newcommand{\defeq}{\vcentcolon=}
 \newcommand{\eqdef}{=\vcentcolon}
+\newcommand{\nimplies}{\centernot\implies}
 
 \newcommand{\naturals}{\ensuremath{\mathbb{N}}}
 \newcommand{\integers}{\ensuremath{\mathbb{Z}}}
